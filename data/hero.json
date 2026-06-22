@@ -1,0 +1,15 @@
+{
+  "type": "hero",
+  "id": "hero",
+  "enabled": true,
+  "navigation": {
+    "show": false,
+    "label": "Hero"
+  },
+  "data": {
+    "badge": "Psychologist & Researcher",
+    "name": "Bent Ginsburg",
+    "tagline": "Deciphering the Human Psyche.",
+    "description": "Dedicated to advancing cognitive-behavioral insights through rigorous empirical research and compassionate clinical practice. Bridging the gap between theoretical models and lived experience."
+  }
+}
