@@ -3,7 +3,7 @@
   "id": "bulbul",
   "enabled": true,
   "navigation": {
-    "show": true,
+    "show": false,
     "label": "Bulbul"
   },
   "data": {
