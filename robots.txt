@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://billkill9.github.io/template-1/sitemap.xml
