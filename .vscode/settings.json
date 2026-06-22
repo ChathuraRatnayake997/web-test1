@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "**/data/*.json": "jsonc"
+  },
+  "json.validate.enable": false
+}
