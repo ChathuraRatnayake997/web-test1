@@ -1,0 +1,48 @@
+{
+  "type": "projects",
+  "id": "projects",
+  "enabled": true,
+  "navigation": {
+    "show": true,
+    "label": "Projects"
+  },
+  "data": {
+    "heading": "Current Projects",
+    "description": "Ongoing research initiatives and clinical studies.",
+    "view_all": { "label": "Explore Archive", "url": "#" },
+    "items": [
+      {
+        "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&fit=crop",
+        "alt": "fMRI brain scan visualization",
+        "title": "Cortical Thickness & Social Isolation",
+        "description": "Longitudinal fMRI study mapping neural changes in response to prolonged social isolation, with implications for remote-work mental health.",
+        "status": "Active",
+        "url": "#"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
+        "alt": "AI diagnostics interface",
+        "title": "Bias Remediation in Clinical Diagnostics",
+        "description": "Developing AI-assisted screening tools that reduce implicit bias in preliminary psychological assessments.",
+        "status": "Recruiting",
+        "url": "#"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
+        "alt": "wearable biometric device",
+        "title": "The Resilience Index",
+        "description": "A standardized metric for quantifying cognitive load-bearing capacity using wearable biometric data.",
+        "status": "Analysis",
+        "url": "#"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop",
+        "alt": "diverse workplace collaboration",
+        "title": "Neurodiversity & Workplace Design",
+        "description": "Cross-institutional study on environmental stressors and productivity across neurotypes in high-pressure environments.",
+        "status": "Active",
+        "url": "#"
+      }
+    ]
+  }
+}

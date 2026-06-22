@@ -1,0 +1,27 @@
+{
+  "period": "2010–2014",
+  "degree": "B.S. in Cognitive Science",
+  "institution": "University of Michigan",
+  "location": "Ann Arbor, MI",
+  "honors": "Magna Cum Laude",
+  "description": "Specialized in Behavioral Neurobiology with department honors.",
+  "url": "https://umich.edu"
+}
+
+      {
+        "start": "2014",
+        "end": "2018",
+        "degree": "Ph.D. in Clinical Psychology",
+        "institution": "University of Pennsylvania",
+        "location": "Philadelphia, PA",
+        "advisor": "Dr. Robert Chen",
+        "description": "Dissertation: The Nexus of Anxiety and Executive Function in High-Pressure Environments.",
+        "highlights": [
+          "Awarded the Penn Graduate School of Arts and Sciences Fellowship",
+          "Completed clinical residency at the Hospital of the University of Pennsylvania"
+        ],
+        "link": {
+          "text": "Read Dissertation",
+          "url": "https://repository.upenn.edu"
+        }
+      }
