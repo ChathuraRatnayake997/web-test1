@@ -1,0 +1,51 @@
+{
+  📌 Site-wide metadata
+  "name": "Bent Ginsburg",
+  "title": "Bent Ginsburg | Psychologist & Researcher",
+  "favicon": "assets/images/favicon.ico",
+  "google_analytics_id": "G-8R8WG80W78",
+
+  📌 CV / Resume button configuration
+  "cv": {
+    "path": "/assets/cv.pdf",
+    "viewer": "pages/cv.html",
+    "external_url": "https://dashboard.emailjs.com/sign-up",
+    "mode": "external",
+    "labels": {
+      "view": "View CV",
+      "download": "Download CV",
+      "external": "External Portfolio"
+    }
+  },
+
+  📌 Section JSON files to load — order determines render order
+  "sections": [
+    "hero.json",
+    "about.json",
+    "education.json",
+    "kookie-buukie.json",
+    "publications.json",
+    "projects.json",
+    "bulbul.json",
+    "contact.json"
+  ],
+  📌 Footer content and links
+  "footer": {
+    "name": "Bent Ginsburg",
+    "tagline": "Psychologist & Researcher",
+    "links": [
+      {
+        "label": "Privacy Policy",
+        "url": "#"
+      },
+      {
+        "label": "Terms of Service",
+        "url": "#"
+      },
+      {
+        "label": "University Affiliation",
+        "url": "#"
+      }
+    ]
+  }
+}
