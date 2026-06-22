@@ -1,0 +1,13 @@
+.dark body {
+  background-color: #131412;
+  color: #e4e2de;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+body {
+  background-color: #fbf9f5;
+  color: #1b1c1a;
+}
