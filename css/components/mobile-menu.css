@@ -1,0 +1,118 @@
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  background: rgb(251 249 245 / 0.98);
+  backdrop-filter: blur(16px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+.dark .mobile-menu {
+  background: rgb(19 20 18 / 0.98);
+}
+
+.mobile-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobile-menu-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(27 28 26);
+  padding: 0.5rem;
+}
+
+.mobile-menu a:focus,
+.mobile-menu button:focus {
+  outline: none;
+}
+
+.dark .mobile-menu-close {
+  color: rgb(228 226 222);
+}
+
+.menu-row {
+  border-bottom: 1px solid rgba(0 0 0 / 0.1);
+  padding: 12px 0;
+  width: 100%;
+  max-width: 28rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.dark .menu-row {
+  border-bottom: 1px solid rgba(255 255 255 / 0.1);
+}
+
+.menu-row a {
+  color: rgb(27 28 26);
+  text-decoration: none;
+  font-size: clamp(1.8rem, 7vw, 4rem);
+  font-weight: 300;
+  display: block;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.menu-row a.font-bold {
+  font-weight: 300 !important;
+}
+
+.menu-row a.border-b-2,
+.menu-row a.border-primary,
+.menu-row a.pb-1 {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+.menu-row:has(a.text-primary) {
+  background: rgba(0 0 0 / 0.05);
+  border-radius: 0.25rem;
+}
+
+.dark .menu-row:has(a.text-primary) {
+  background: rgba(255 255 255 / 0.08);
+}
+
+.dark .menu-row a {
+  color: rgb(228 226 222);
+}
+
+.menu-row:hover a {
+  transform: scale(1.05);
+  color: var(--row-hover-color, rgb(24 35 18));
+}
+
+.menu-footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+.menu-toggle-icon {
+  color: rgb(27 28 26);
+}
+
+.dark .menu-toggle-icon {
+  color: rgb(228 226 222);
+}
