@@ -3,7 +3,7 @@
   "id": "kookie-buukie",
   "enabled": true,
   "navigation": {
-    "show": true,
+    "show": false,
     "label": "Kookie Buukie"
   },
   "data": {
