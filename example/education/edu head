@@ -1,8 +1,0 @@
-{
-  "type": "timeline",         // The generic renderer to use (reusable for education, history, etc.)
-  "id": "academic-path",      // The unique URL anchor tag for scroll-spy (e.g., #academic-path)
-  "enabled": true,            // Toggle to completely bypass rendering
-  "navigation": {
-    "show": true,             // Should this section appear in the nav menu?
-    "label": "Education"      // The text shown in the nav menu (short and clean)
-  },
